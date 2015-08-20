@@ -12,6 +12,13 @@
 bin/
 gen/
 
+#android studio
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
 # Gradle files
 .gradle/
 build/
@@ -25,3 +32,5 @@ proguard/
 
 # Log Files
 *.log
+
+local.properties
