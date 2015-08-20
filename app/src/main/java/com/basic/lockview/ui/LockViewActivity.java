@@ -14,7 +14,6 @@ import com.basic.lockview.view.LockView.CompleteListener;
 public class LockViewActivity extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Window
         super.onCreate(savedInstanceState);
         LockView view = new LockView(this);
         view.setCompleteListener(new CompleteListener() {
